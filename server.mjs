@@ -15,7 +15,7 @@ let PORT = process.env.PORT || 3001;
 
 
 //Routes
-
+app.use('/api/movies', moviesRoutes);
 
 
 //Listener
